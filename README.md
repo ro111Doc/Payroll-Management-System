@@ -74,3 +74,26 @@ train/                          # 项目根目录
 └─ train.py                     # 调试用
 ```
 
+.env内部说明：存放DeepSeek API_KEY、工资接口。
+
+- DeepSeek API_KEY：
+
+  ```
+  DEEPSEEK_API_KEY= （我的api key）
+  DEEPSEEK_BASE_URL=https://api.deepseek.com/anthropic
+  DEEPSEEK_MODEL=deepseek-v4-flash
+  DEEPSEEK_TEMPERATURE=0
+  DEEPSEEK_TIMEOUT=60
+  DEEPSEEK_MAX_TOKENS=1024
+  ```
+
+- 工资接口：
+
+  ```
+  SALARY_AUTHORIZATION=（不可告知的）
+  SALARY_AUTHORIZATION_CODE=（不可告知的）
+  SALARY_AUTHORIZATION_ID=（不可告知的）
+  SALARY_AUTHORIZATION_ROLEID=（不可告知的）
+  SALARY_BASE_URL=（不可告知的）
+  ```
+
